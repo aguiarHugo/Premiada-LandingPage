@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <div className="flex items-center text-golden">
-            <img src={logo} alt="logo" className="w-20 h-20 object-contain"/>
+            <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
             <p className="font-great-vibes text-3xl">Cachaça Premiada</p>
           </div>
         </Link>
