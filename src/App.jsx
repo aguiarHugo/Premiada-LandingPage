@@ -13,6 +13,7 @@ function App() {
         <Navbar />
         <Hero />
         </div>
+        <div id="history" className="h-6 md:h-0.5"/>
         <History />
       </div>
     </BrowserRouter>
