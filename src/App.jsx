@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import History from "./components/History"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Hero />
         </div>
+        <History />
       </div>
     </BrowserRouter>
   )
