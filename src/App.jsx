@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import History from "./components/History"
 import Production from "./components/Production"
 import About from "./components/About"
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -16,12 +17,18 @@ function App() {
         <Navbar />
         <Hero />
         </div>
+
         <div id="history" className="h-6 md:h-0.5"/>
         <History />
+
         <div id="production" className="h-6 md:h-0.5"/>
         <Production />
-        <div id="production" className="h-6 md:h-0.5"/>
+
+        <div id="about" className="h-6 md:h-0.5"/>
         <About />
+        
+        <div id="contact" className="h-6 md:h-0.5"/>
+        <Contact />
       </div>
     </BrowserRouter>
   )
