@@ -11,7 +11,10 @@ const Hero = () => {
         </div>
         <div>
             <h1 className={`${styles.heroHeadText} text-white`}>Cachaça <span className="text-golden">Premiada</span></h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Bi Destilada, explosão de sabor!</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Bi Destilada,</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Tri Filtrada,</p>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Explosão de Sabor!</p>
+
           </div>
       </div>
     </section>
