@@ -27,6 +27,7 @@ const Navbar = () => {
             <p className="font-great-vibes text-3xl">Cachaça Premiada</p>
           </div>
         </Link>
+        
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
