@@ -3,6 +3,9 @@ import { BrowserRouter } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import History from "./components/History"
+import Production from "./components/Production"
+import About from "./components/About"
+
 
 function App() {
 
@@ -15,6 +18,10 @@ function App() {
         </div>
         <div id="history" className="h-6 md:h-0.5"/>
         <History />
+        <div id="production" className="h-6 md:h-0.5"/>
+        <Production />
+        <div id="production" className="h-6 md:h-0.5"/>
+        <About />
       </div>
     </BrowserRouter>
   )
