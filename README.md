@@ -1,4 +1,4 @@
-<h1 align="center"> UI GPT-3</h1>
+<h1 align="center"> Cachaça Premiada </h1>
 
 ## 💻 Projeto
 Landing page desenvolvida para atender a Cachaça Premiada.
@@ -16,6 +16,7 @@ Para acessar o projeto [Clique Aqui!](https://premiada.netlify.app/)
 Esse projeto foi desenvolvido com as seguintes tecnologias:<br>
 HTML <br>
 CSS <br>
+Vite <br>
 Tailwindcss<br>
 JavaScript<br>
 ReactJs<br>
