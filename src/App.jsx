@@ -6,6 +6,7 @@ import History from "./components/History"
 import Production from "./components/Production"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         
         <div id="contact" className="h-6 md:h-0.5"/>
         <Contact />
+        <Footer />
       </div>
     </BrowserRouter>
   )
